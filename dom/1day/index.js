@@ -1,0 +1,12 @@
+    var aEl=document.getElementById(1);
+    console.log(aEl);
+    // var divEl=document.getElementsByTagName('div');
+    var divEl=aEl.getElementsByTagName('div');
+    console.log(divEl[5]);
+    var elByClass=aEl.getElementsByClassName('a1');
+    console.log(elByClass);
+    aEl.innerHTML='<a id="nini">baidu</a>';
+    var two=document.getElementById('nini');
+    two.href='http://www.baidu.com';
+    two.style.background='#000000';
+    two.style.fontSize='100px';
